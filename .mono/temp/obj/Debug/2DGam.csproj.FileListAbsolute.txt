@@ -1,0 +1,9 @@
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\bin\Debug\2DGam.dll
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\bin\Debug\2DGam.pdb
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.csproj.AssemblyReference.cache
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.GeneratedMSBuildEditorConfig.editorconfig
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.AssemblyInfoInputs.cache
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.AssemblyInfo.cs
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.csproj.CoreCompileInputs.cache
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.dll
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.pdb

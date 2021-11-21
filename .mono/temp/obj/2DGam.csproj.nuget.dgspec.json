@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\SayPCWhatDo\\GodotProj\\2dGame_ProjGam\\2DGam.csproj": {}
+  },
+  "projects": {
+    "D:\\SayPCWhatDo\\GodotProj\\2dGame_ProjGam\\2DGam.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SayPCWhatDo\\GodotProj\\2dGame_ProjGam\\2DGam.csproj",
+        "projectName": "2DGam",
+        "projectPath": "D:\\SayPCWhatDo\\GodotProj\\2dGame_ProjGam\\2DGam.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "D:\\SayPCWhatDo\\GodotProj\\2dGame_ProjGam\\.mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
