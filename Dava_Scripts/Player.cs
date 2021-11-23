@@ -1,27 +1,26 @@
 using Godot;
 using System;
 
-public class Player : KinematicBody2D
-{
-    public int speed = 5;
+public class Player : KinematicBody2D {
+	int move_speed = 500;
+    static Vector2 vel = new Vector2();
+	public override void _UnhandledInput(InputEvent @event) {
+	if (@event is InputEventKey eventKey)
+		if (eventKey.Pressed && eventKey.Scancode == (int)KeyList.Escape){
+            GetTree().Quit();
+            GD.Print("Buy");
+        }
+	}
 
-    public void GetInput(){
-
-        if (Input.IsActionPressed("right"))
-            this.Position += new Vector2(speed, 0);
-
-        if (Input.IsActionPressed("left"))
-            this.Position += new Vector2(-speed, 0);
-
-        if (Input.IsActionPressed("down"))
-            this.Position += new Vector2(0, speed);
-
-        if (Input.IsActionPressed("up"))
-            this.Position += new Vector2(0, -speed);
-
+   // public void GetInput(){}
+	
+	public override void _PhysicsProcess(float delta) {	
+        
+        vel.x = Input.GetActionStrength("right") - Input.GetActionStrength("left");
+        vel.y = Input.GetActionStrength("down") - Input.GetActionStrength("up");
+        MoveAndCollide(vel.Normalized() * move_speed * delta);
+        Image pick = new Image();
+        pick.FlipX = true; 
     }
 
-    public override void _PhysicsProcess(float delta){
-        GetInput();
-    }
 }
