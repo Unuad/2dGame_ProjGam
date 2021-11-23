@@ -20,7 +20,7 @@ public class Player : KinematicBody2D {
         vel.y = Input.GetActionStrength("down") - Input.GetActionStrength("up");
         MoveAndCollide(vel.Normalized() * move_speed * delta);
         Image pick = new Image();
-        pick.FlipX = true; 
+        pick.FlipX();
     }
 
 }
