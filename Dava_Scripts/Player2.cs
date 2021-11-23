@@ -21,6 +21,8 @@ public class Player2 : KinematicBody2D {
 
         MoveAndCollide(vel.Normalized() * speed * delta);
 
+        Sprite sprite = (Sprite)GetNode("Player");  
+        sprite.FlipH = true;
         /*
         if (Input.IsActionPressed("right")) {
             this.Position += new Vector2(speed, 0);
