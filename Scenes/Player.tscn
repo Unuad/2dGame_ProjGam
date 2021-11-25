@@ -1,18 +1,38 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Dava_Scripts/Player.cs" type="Script" id=1]
 [ext_resource path="res://Egr_pickter/player.png" type="Texture" id=2]
+[ext_resource path="res://Egr_pickter/player2.png" type="Texture" id=3]
+[ext_resource path="res://Egr_pickter/player1.png" type="Texture" id=4]
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "run",
+"speed": 3.0
+} ]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 118, 141 )
 
 [node name="Player" type="KinematicBody2D"]
+position = Vector2( -18, -12 )
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
 
-[node name="Player" type="Sprite" parent="."]
+[node name="Player" type="AnimatedSprite" parent="."]
 position = Vector2( 209, 395 )
 scale = Vector2( 2, 2 )
-texture = ExtResource( 2 )
+frames = SubResource( 2 )
+animation = "run"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 209, 398 )

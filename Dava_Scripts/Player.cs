@@ -5,6 +5,8 @@ public class Player : KinematicBody2D {
 	int move_speed = 5;
     static Vector2 vel = new Vector2();
    
+    private AnimatedSprite _animatedSprite;
+
     string side = "left";
 
     public override void _UnhandledInput(InputEvent @event) {
@@ -14,12 +16,30 @@ public class Player : KinematicBody2D {
             GD.Print("Buy");
         }
 	}
+    public override void _Ready() {
+        _animatedSprite = GetNode<AnimatedSprite>("/root/Main/Player/Player");
+    }
 
+    public void Animate(){
+        if (Input.IsActionPressed("right")) {
+            this.Position += new Vector2(move_speed, 0);
+            _animatedSprite.Play("run");
+            _animatedSprite.FlipH = true;
+        }else if (Input.IsActionPressed("left")) {
+            this.Position += new Vector2(-move_speed, 0);
+            _animatedSprite.Play("run");
+            _animatedSprite.FlipH = false;
+		}
+        else {
+            _animatedSprite.Stop();
+            _animatedSprite.Play("idle");
+        }
+    }
 	
 	public override void _PhysicsProcess(float delta) {	
         
-
-        if (Input.IsActionPressed("right")) {
+        Animate();
+        /*if (Input.IsActionPressed("right")) {
             this.Position += new Vector2(move_speed, 0);
             side = "right";
         }
@@ -37,7 +57,7 @@ public class Player : KinematicBody2D {
             default:
                 pick.FlipH = true;
                 break;
-        }
+        } */
 
     }
 
