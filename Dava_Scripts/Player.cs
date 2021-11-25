@@ -31,7 +31,7 @@ public class Player : KinematicBody2D {
             _animatedSprite.FlipH = false;
 		}
         else {
-            _animatedSprite.Stop();
+            //_animatedSprite.Stop();
             _animatedSprite.Play("idle");
         }
     }
