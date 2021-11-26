@@ -3,11 +3,8 @@ using System;
 
 public class Player : KinematicBody2D {
 	int move_speed = 5;
-    static Vector2 vel = new Vector2();
-   
+    int screen_size_x = 1024;
     private AnimatedSprite _animatedSprite;
-
-    string side = "left";
 
     public override void _UnhandledInput(InputEvent @event) {
 	if (@event is InputEventKey eventKey)
@@ -18,6 +15,7 @@ public class Player : KinematicBody2D {
 	}
     public override void _Ready() {
         _animatedSprite = GetNode<AnimatedSprite>("/root/Main/Player/Player");
+        this.Position += new Vector2(100, 0);
     }
 
     public void Animate(){
@@ -31,34 +29,22 @@ public class Player : KinematicBody2D {
             _animatedSprite.FlipH = false;
 		}
         else {
-            //_animatedSprite.Stop();
             _animatedSprite.Play("idle");
         }
     }
 	
-	public override void _PhysicsProcess(float delta) {	
-        
-        Animate();
-        /*if (Input.IsActionPressed("right")) {
-            this.Position += new Vector2(move_speed, 0);
-            side = "right";
+    public void Check() {
+        if (this.Position.x < 0) {
+            this.Position = new Vector2(0, 50);
         }
-        if (Input.IsActionPressed("left")) {
-            this.Position += new Vector2(-move_speed, 0);
-            side = "left";
-		}
-        var pick = GetNode("/root/Main/Player/Player") as Sprite;
+        if (this.Position.x >= screen_size_x) {
+            this.Position = new Vector2(screen_size_x, 50);
+        }
+    }
 
-        switch (side)
-        {
-            case "left":
-                pick.FlipH = false;
-                break;
-            default:
-                pick.FlipH = true;
-                break;
-        } */
-
+	public override void _PhysicsProcess(float delta) {	
+        Animate();
+        Check();
     }
 
 }

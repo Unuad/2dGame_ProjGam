@@ -38,3 +38,23 @@ public class Player2 : KinematicBody2D {
   // Called every frame. 'delta' is the elapsed time since the previous frame.
  // public override void _Process(float delta){}
 }
+
+/*if (Input.IsActionPressed("right")) {
+            this.Position += new Vector2(move_speed, 0);
+            side = "right";
+        }
+        if (Input.IsActionPressed("left")) {
+            this.Position += new Vector2(-move_speed, 0);
+            side = "left";
+		}
+        var pick = GetNode("/root/Main/Player/Player") as Sprite;
+
+        switch (side)
+        {
+            case "left":
+                pick.FlipH = false;
+                break;
+            default:
+                pick.FlipH = true;
+                break;
+        } */
