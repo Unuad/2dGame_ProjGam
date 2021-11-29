@@ -3,7 +3,7 @@ using System;
 
 public class Player : KinematicBody2D {
 	int move_speed = 5;
-    int screen_size_x = 1024;
+    public static Vector2 _screenSize;
     private AnimatedSprite _animatedSprite;
 
     public override void _UnhandledInput(InputEvent @event) {
@@ -16,6 +16,7 @@ public class Player : KinematicBody2D {
     public override void _Ready() {
         _animatedSprite = GetNode<AnimatedSprite>("/root/Main/Player/Player");
         this.Position += new Vector2(100, 0);
+        _screenSize = GetViewport().Size;
     }
 
     public void Animate(){
@@ -37,8 +38,8 @@ public class Player : KinematicBody2D {
         if (this.Position.x < 0) {
             this.Position = new Vector2(0, 50);
         }
-        if (this.Position.x >= screen_size_x) {
-            this.Position = new Vector2(screen_size_x, 50);
+        if (this.Position.x >= _screenSize.x) {
+            this.Position = new Vector2(_screenSize.x, 50);
         }
     }
 
