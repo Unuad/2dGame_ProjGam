@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"res://Scripts/Player.cs":{"modified_time":"1637518989","class":{"namespace":"","class_name":"Player","nested":false}},"res://Dava_Scripts/Player2.cs":{"modified_time":"1637968916","class":{"namespace":"","class_name":"Player2","nested":false}},"res://Dava_Scripts/Player.cs":{"modified_time":"1638056494","class":{"namespace":"","class_name":"Player","nested":false}},"res://Dava_Scripts/Enemy.cs":{"modified_time":"1638057346","class":{"namespace":"","class_name":"Enemy","nested":false}},"res://Dava_Scripts/Main.cs":{"modified_time":"1638057325","class":{"namespace":"","class_name":"Main","nested":false}}}
+=======
+{"res://Scripts/Player.cs":{"modified_time":"1637518989","class":{"namespace":"","class_name":"Player","nested":false}},"res://Dava_Scripts/Enemy.cs":{"modified_time":"1638054403","class":{"namespace":"","class_name":"Enemy","nested":false}},"res://Dava_Scripts/Player.cs":{"modified_time":"1638054403","class":{"namespace":"","class_name":"Player","nested":false}},"res://Dava_Scripts/Player2.cs":{"modified_time":"1638054403","class":{"namespace":"","class_name":"Player2","nested":false}}}
+>>>>>>> 9ec78475a2dfe95c3df074c3bb947bc112e98df9

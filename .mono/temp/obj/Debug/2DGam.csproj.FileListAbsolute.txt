@@ -7,3 +7,11 @@ D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.AssemblyInfo.
 D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.csproj.CoreCompileInputs.cache
 D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.dll
 D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.pdb
+D:\Program Files\2dGame_ProjGam\.mono\temp\bin\Debug\2DGam.dll
+D:\Program Files\2dGame_ProjGam\.mono\temp\bin\Debug\2DGam.pdb
+D:\Program Files\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.csproj.AssemblyReference.cache
+D:\Program Files\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.AssemblyInfoInputs.cache
+D:\Program Files\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.AssemblyInfo.cs
+D:\Program Files\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.csproj.CoreCompileInputs.cache
+D:\Program Files\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.dll
+D:\Program Files\2dGame_ProjGam\.mono\temp\obj\Debug\2DGam.pdb
