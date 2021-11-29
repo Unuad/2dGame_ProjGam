@@ -1,1 +1,17 @@
+<<<<<<< HEAD
 {"res://Dava_Scripts/Main.cs":{"modified_time":"1638225190","class":{"namespace":"","class_name":"Main","nested":false}},"res://Dava_Scripts/Player.cs":{"modified_time":"1638225100","class":{"namespace":"","class_name":"Player","nested":false}},"res://Dava_Scripts/Player2.cs":{"modified_time":"1638054403","class":{"namespace":"","class_name":"Player2","nested":false}}}
+=======
+<<<<<<< HEAD
+{"res://Dava_Scripts/Main.cs":{"modified_time":"1638057325","class":{"namespace":"","class_name":"Main","nested":false}},"res://Dava_Scripts/Player.cs":{"modified_time":"1638225161","class":{"namespace":"","class_name":"Player","nested":false}},"res://Dava_Scripts/Player2.cs":{"modified_time":"1637968916","class":{"namespace":"","class_name":"Player2","nested":false}},"res://Dava_Scripts/Enemy.cs":{"modified_time":"1638225644","class":{"namespace":"","class_name":"Enemy","nested":false}}}
+=======
+<<<<<<< HEAD
+{"res://Scripts/Player.cs":{"modified_time":"1637518989","class":{"namespace":"","class_name":"Player","nested":false}},"res://Dava_Scripts/Player.cs":{"modified_time":"1638054403","class":{"namespace":"","class_name":"Player","nested":false}},"res://Dava_Scripts/Player2.cs":{"modified_time":"1638054403","class":{"namespace":"","class_name":"Player2","nested":false}},"res://Dava_Scripts/Enemy.cs":{"modified_time":"1638223918","class":{"namespace":"","class_name":"Enemy","nested":false}}}
+=======
+<<<<<<< HEAD
+{"res://Scripts/Player.cs":{"modified_time":"1637518989","class":{"namespace":"","class_name":"Player","nested":false}},"res://Dava_Scripts/Player2.cs":{"modified_time":"1637968916","class":{"namespace":"","class_name":"Player2","nested":false}},"res://Dava_Scripts/Player.cs":{"modified_time":"1638056494","class":{"namespace":"","class_name":"Player","nested":false}},"res://Dava_Scripts/Enemy.cs":{"modified_time":"1638057346","class":{"namespace":"","class_name":"Enemy","nested":false}},"res://Dava_Scripts/Main.cs":{"modified_time":"1638057325","class":{"namespace":"","class_name":"Main","nested":false}}}
+=======
+{"res://Scripts/Player.cs":{"modified_time":"1637518989","class":{"namespace":"","class_name":"Player","nested":false}},"res://Dava_Scripts/Enemy.cs":{"modified_time":"1638054403","class":{"namespace":"","class_name":"Enemy","nested":false}},"res://Dava_Scripts/Player.cs":{"modified_time":"1638054403","class":{"namespace":"","class_name":"Player","nested":false}},"res://Dava_Scripts/Player2.cs":{"modified_time":"1638054403","class":{"namespace":"","class_name":"Player2","nested":false}}}
+>>>>>>> 9ec78475a2dfe95c3df074c3bb947bc112e98df9
+>>>>>>> dccb2f42662bfa8975975bd1f3665449c961722e
+>>>>>>> 96c164230ca31666f5b89abac1563c8adc452eb8
+>>>>>>> 655c29b8340433df997a9327f5fc58fe7397a853

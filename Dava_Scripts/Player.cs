@@ -44,6 +44,7 @@ public class Player : KinematicBody2D {
     }
 
 	public override void _PhysicsProcess(float delta) {	
+        _screenSize = GetViewport().Size;
         Animate();
         Check();
     }
