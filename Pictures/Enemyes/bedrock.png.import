@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/player.png-989826312c9c82cf00936f967b99dcb6.stex"
+path="res://.import/bedrock.png-03f45901dcb9616987d8cf80d5612318.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Egr_pickter/player.png"
-dest_files=[ "res://.import/player.png-989826312c9c82cf00936f967b99dcb6.stex" ]
+source_file="res://Pictures/Enemyes/bedrock.png"
+dest_files=[ "res://.import/bedrock.png-03f45901dcb9616987d8cf80d5612318.stex" ]
 
 [params]
 
