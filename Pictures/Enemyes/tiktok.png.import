@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/player.png-c1ca71ba0dcfff25de27c3f19468dec8.stex"
+path="res://.import/tiktok.png-06755233b5abff38cdcaa668ff889999.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Pictures/player.png"
-dest_files=[ "res://.import/player.png-c1ca71ba0dcfff25de27c3f19468dec8.stex" ]
+source_file="res://Pictures/Enemyes/tiktok.png"
+dest_files=[ "res://.import/tiktok.png-06755233b5abff38cdcaa668ff889999.stex" ]
 
 [params]
 

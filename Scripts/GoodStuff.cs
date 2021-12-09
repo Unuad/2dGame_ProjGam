@@ -3,14 +3,13 @@ using System;
 
 namespace Game
 {
-    public class Good : KinematicBody2D
+    public class GoodStuff : KinematicBody2D
     {
         int fall_speed = 1;
-        private ulong PlayerCollisionId = 1276;
-        private KinematicBody2D Playerok = new Player();
         public static Vector2 _screenSize;
         static Vector2 vel = new Vector2();
         int cor_x = GetRandom(Convert.ToInt32(_screenSize.x));
+        private int points = -5;
 
 
         static int GetRandom(int x)
@@ -31,16 +30,17 @@ namespace Game
             var collisionInfo = MoveAndCollide(vel * delta);
             if (collisionInfo != null)
             {
-                QueueFree();
-                Player.points += 1;
-                GD.Print(Player.points);
-                GD.Print(collisionInfo.ColliderId);
-                // ColliderId 1276
+                if (Convert.ToString(collisionInfo.GetCollider().GetType()) == "Game.Player")
+                {
+                    QueueFree();
+                    Player.points += points;
+                    GD.Print(Player.points);
+                }
             }
 
             if (this.Position.y > _screenSize.y + 50)
             {
-                GD.Print("im out of bounds");
+                //GD.Print("im out of bounds");
                 QueueFree();
             }
         }

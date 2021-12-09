@@ -1,0 +1,13 @@
+Good {
+	1 dumbbell + 
+	2 book + 
+	3 apple + 
+	4 banana + 
+}
+
+Bad {
+	1 cigarette + 
+	2 tik tok + 
+	3 beer + 
+	4 gamburger + 
+}
