@@ -1,14 +1,15 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Pictures/Снимок.PNG" type="Texture" id=2]
 [ext_resource path="res://Scripts/Main.cs" type="Script" id=3]
 
 [node name="Main" type="Node2D"]
 script = ExtResource( 3 )
 
-[node name="Поле" type="Sprite" parent="."]
-position = Vector2( 514.75, 303.5 )
-scale = Vector2( 3.74, 3.32787 )
+[node name="Снимок" type="Sprite" parent="."]
+position = Vector2( 572, 346 )
+texture = ExtResource( 2 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 
