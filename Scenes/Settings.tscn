@@ -1,3 +1,19 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/back.gd" type="Script" id=1]
+[ext_resource path="res://Pictures/Title/button_back.png" type="Texture" id=2]
 
 [node name="Settings" type="Node2D"]
+
+[node name="Button" type="Button" parent="."]
+margin_left = 377.0
+margin_top = 242.0
+margin_right = 589.0
+margin_bottom = 297.0
+icon = ExtResource( 2 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]
