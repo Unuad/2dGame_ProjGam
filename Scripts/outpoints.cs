@@ -2,18 +2,19 @@ using Godot;
 using System;
 namespace Game
 {
-	public class outpoints : HBoxContainer
+	public class outpoints : Label
 	{
-		private int number_label;
 		public override void _Ready()
 		{
-			number_label = Player.points;
+			this.SetText(Convert.ToString(Player.points));
+			//this.GetLineHeight(100);
 		}
 
 	
 		public override void _Process(float delta)
 		{
-			number_label = Player.points;
+			this.SetText(Convert.ToString(Player.points));
 		}
 	}
+	
 }

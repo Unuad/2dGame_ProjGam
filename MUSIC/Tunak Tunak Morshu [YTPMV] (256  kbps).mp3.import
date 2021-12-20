@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Tunak Tunak Morshu [YTPMV] (256  kbps).mp3-2c214daafac2396d07751af81aa8550d.mp3str"
+
+[deps]
+
+source_file="res://MUSIC/Tunak Tunak Morshu [YTPMV] (256  kbps).mp3"
+dest_files=[ "res://.import/Tunak Tunak Morshu [YTPMV] (256  kbps).mp3-2c214daafac2396d07751af81aa8550d.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

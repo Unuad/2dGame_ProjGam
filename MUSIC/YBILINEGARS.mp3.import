@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/YBILINEGARS.mp3-c23455d27a3681686a0975f8c223349f.mp3str"
+
+[deps]
+
+source_file="res://MUSIC/YBILINEGARS.mp3"
+dest_files=[ "res://.import/YBILINEGARS.mp3-c23455d27a3681686a0975f8c223349f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,15 +1,16 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Pictures/2142393.jpg" type="Texture" id=2]
 [ext_resource path="res://Scripts/Main.cs" type="Script" id=3]
 [ext_resource path="res://Scripts/Button-to-title.gd" type="Script" id=4]
 [ext_resource path="res://Scripts/outpoints.cs" type="Script" id=5]
+[ext_resource path="res://MUSIC/Tunak Tunak Morshu [YTPMV] (256  kbps).mp3" type="AudioStream" id=6]
 
 [node name="Main" type="Node2D"]
 script = ExtResource( 3 )
 
-[node name="2142393" type="Sprite" parent="."]
+[node name="beckground" type="Sprite" parent="."]
 position = Vector2( 511.5, 258.5 )
 scale = Vector2( 0.317096, 0.286356 )
 texture = ExtResource( 2 )
@@ -29,14 +30,32 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="HBoxContainer" type="HBoxContainer" parent="."]
-margin_left = 502.0
-margin_top = 48.0
-margin_right = 868.0
-margin_bottom = 219.0
-script = ExtResource( 5 )
+[node name="Counter" type="HBoxContainer" parent="."]
+margin_left = 600.0
+margin_top = -1.0
+margin_right = 966.0
+margin_bottom = 170.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Label" type="Label" parent="Counter"]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
+margin_top = 78.0
+margin_bottom = 92.0
+grow_horizontal = 0
+hint_tooltip = "fhjkljk;"
+size_flags_stretch_ratio = 0.0
+align = 1
+script = ExtResource( 5 )
+__meta__ = {
+"_editor_description_": "GOVNO"
+}
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+volume_db = -32.979
+autoplay = true
 
 [connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]
