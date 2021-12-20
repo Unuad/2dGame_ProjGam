@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SIFZbJhhJKBibonkcqyWx1Y/R5MVJTgcVQmR1TPOhXh/aYC3a3TVj1x6I7xhtPwaGmBGy+GMc+gu03NHUqpKDw==",
+  "dgSpecHash": "52KIbFkg40u6t3K9nTF0pN/qXtrFI+HlekHQYVa0GDztoxp2/nyrAhZamSSZNHApt8nd0bj60EYM7x+IJdTmwA==",
   "success": true,
-  "projectFilePath": "D:\\Program Files\\2dGame_ProjGam\\2DGam.csproj",
+  "projectFilePath": "D:\\SayPCWhatDo\\GodotProj\\2dGame_ProjGam\\2DGam.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\VingoPC\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
-    "C:\\Users\\VingoPC\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.0\\microsoft.netframework.referenceassemblies.net472.1.0.0.nupkg.sha512"
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.2\\microsoft.netframework.referenceassemblies.net472.1.0.2.nupkg.sha512"
   ],
   "logs": []
 }
