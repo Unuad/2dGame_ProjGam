@@ -1,0 +1,8 @@
+D:\Program Files\2dGame_ProjGam\.mono\temp\bin\ExportDebug\2DGam.dll
+D:\Program Files\2dGame_ProjGam\.mono\temp\bin\ExportDebug\2DGam.pdb
+D:\Program Files\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.csproj.AssemblyReference.cache
+D:\Program Files\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.AssemblyInfoInputs.cache
+D:\Program Files\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.AssemblyInfo.cs
+D:\Program Files\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.csproj.CoreCompileInputs.cache
+D:\Program Files\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.dll
+D:\Program Files\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.pdb
