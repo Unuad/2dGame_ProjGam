@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Program Files\2dGame_ProjGam\.mono\temp\bin\ExportDebug\2DGam.dll
 D:\Program Files\2dGame_ProjGam\.mono\temp\bin\ExportDebug\2DGam.pdb
 D:\Program Files\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.csproj.AssemblyReference.cache
@@ -6,3 +7,14 @@ D:\Program Files\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.AssemblyInfo.cs
 D:\Program Files\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.csproj.CoreCompileInputs.cache
 D:\Program Files\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.dll
 D:\Program Files\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.pdb
+=======
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\bin\ExportDebug\2DGam.dll
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\bin\ExportDebug\2DGam.pdb
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.csproj.AssemblyReference.cache
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.GeneratedMSBuildEditorConfig.editorconfig
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.AssemblyInfoInputs.cache
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.AssemblyInfo.cs
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.csproj.CoreCompileInputs.cache
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.dll
+D:\SayPCWhatDo\GodotProj\2dGame_ProjGam\.mono\temp\obj\ExportDebug\2DGam.pdb
+>>>>>>> d84bfb64f0fa78ee3ba2c24921062ed9102f362f
